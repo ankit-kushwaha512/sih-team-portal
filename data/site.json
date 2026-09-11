@@ -1,0 +1,31 @@
+{
+  "activeStatement": {
+    "year": "SIH 2026",
+    "title": "Upload your current SIH problem statement from the Admin panel",
+    "description": "This platform is intentionally statement-agnostic. Admins can replace the active statement, add resources and update role-specific learning plans without changing the application code."
+  },
+  "roles": [
+    {"id":"frontend","name":"Frontend Developer","short":"Frontend","icon":"Monitor","color":"cyan","focus":["HTML/CSS","JavaScript/TypeScript","React/Next.js","Responsive UI","Accessibility"]},
+    {"id":"cofrontend","name":"Co-Frontend Developer","short":"Co-Frontend","icon":"PanelsTopLeft","color":"sky","focus":["Component systems","Responsive layouts","Testing","Git/GitHub","UI integration"]},
+    {"id":"backend","name":"Backend Developer","short":"Backend","icon":"Server","color":"emerald","focus":["APIs","Databases","Authentication","Security","Deployment"]},
+    {"id":"cobackend","name":"Co-Backend Developer","short":"Co-Backend","icon":"Database","color":"teal","focus":["Data modeling","API integration","Validation","Testing","Monitoring"]},
+    {"id":"pitch","name":"Pitch Leader","short":"Pitch","icon":"Presentation","color":"amber","focus":["Storytelling","Problem framing","Solution value","Demo flow","Q&A"]},
+    {"id":"leader","name":"Team Leader + UI/UX Designer","short":"Leader + UI/UX","icon":"Crown","color":"violet","focus":["Team coordination","UI/UX","User research","Design system","Presentation"] }
+  ],
+  "roadmap": [
+    {"phase":"01","title":"Understand","text":"Break the statement into problem, users, constraints and measurable outcomes."},
+    {"phase":"02","title":"Research","text":"Collect references, validate assumptions and map existing solutions."},
+    {"phase":"03","title":"Design","text":"Create user flows, wireframes, architecture and a realistic MVP."},
+    {"phase":"04","title":"Build","text":"Develop the MVP in small, testable increments and track blockers."},
+    {"phase":"05","title":"Polish","text":"Test, secure, document and prepare the final demonstration."},
+    {"phase":"06","title":"Pitch","text":"Rehearse the story, live demo, impact metrics and likely jury questions."}
+  ],
+  "resources": [
+    {"title":"MDN Web Docs","type":"Web","url":"https://developer.mozilla.org/","tag":"Frontend fundamentals"},
+    {"title":"React Documentation","type":"Docs","url":"https://react.dev/","tag":"React & components"},
+    {"title":"Next.js Documentation","type":"Docs","url":"https://nextjs.org/docs","tag":"Full-stack React"},
+    {"title":"OWASP Top 10","type":"Security","url":"https://owasp.org/www-project-top-ten/","tag":"Application security"},
+    {"title":"GitHub Skills","type":"Practice","url":"https://skills.github.com/","tag":"Git & collaboration"},
+    {"title":"Figma Learn","type":"Design","url":"https://help.figma.com/","tag":"UI/UX workflows"}
+  ]
+}
